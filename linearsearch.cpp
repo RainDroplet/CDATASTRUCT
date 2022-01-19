@@ -5,6 +5,9 @@ if the value is found return the index of its potiion in the array. If not found
 
 #include <iostream>
 using namespace std;
+int search (int arr[], int cap, int target) {
+    for(int i = 0; i < cap; i++) //Repeat going through array
+}     
 
 int search(int arr[], int arrSize, int target) {
     // function is checking for the target number in the array
